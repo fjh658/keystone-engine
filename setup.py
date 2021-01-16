@@ -148,7 +148,7 @@ class custom_build_clib(build_clib):
                     SETUP_DATA_FILES.append("src/build/keystone.dll")
                 else:   # Unix
                     os.chmod("../make-share.sh", stat.S_IREAD|stat.S_IEXEC)
-                    os.system("../make-share.sh lib_only")
+                    os.system("../make-share.sh macos-universal")
                     if SYSTEM == "darwin":
                         SETUP_DATA_FILES.append("src/build/llvm/lib/libkeystone.dylib")
                     else:   # Non-OSX
