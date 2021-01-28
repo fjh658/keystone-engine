@@ -1,5 +1,5 @@
 # keystone-engine
-keystone-engine bindings python. support `Xcode10` compilation
+keystone-engine bindings python. support apple m1 silicon
 
 Usage:
 
