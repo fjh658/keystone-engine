@@ -5,7 +5,7 @@ Usage:
 
 This repo targets "keystone" copy  to lib-dynload.
 
-![keystone_install](./images/keystone_install.png)
+![keystone_install](https://user-images.githubusercontent.com/5550316/138583589-a9ebed38-9c5b-464d-9252-efad02e61b0f.png)
 
 Compile:
 
